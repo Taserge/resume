@@ -1,5 +1,5 @@
 # Резюме
 
-##Результат тут
+## Результат тут
 
-[Первая работа за долгое время на HTML and CSS] (https://taserge.github.io/resume/)
+[Первая работа за долгое время на HTML and CSS](https://taserge.github.io/resume/)
