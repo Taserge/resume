@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+
+
+img {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+
+body {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 15px;
+    background: rgb(243, 240, 240);
+}
+
+.info-start {
+    padding: 20px;
+    text-align: start;
+}
+
+.info-start p {
+    color: rgb(104, 99, 99);
+}
+
+.card-1 {
+    border-radius: 20px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.card-2 {
+    border: 2px solid rgb(185, 247, 232);
+    padding-left: 10px;
+    border-radius: 20px;
+    background: rgb(185, 247, 232);
+}
+
+.card-3 {
+    border: 2px solid rgb(247, 246, 185);
+    padding-left: 10px;
+    border-radius: 20px;
+    background: rgb(247, 246, 185);
+    padding-bottom: 10px;
+}
+
+.card-3 td:nth-child(3):hover {
+    background: yellow;
+}
+
+.card-4 {
+    border: 2px solid rgb(185, 194, 247);
+    padding-left: 10px;
+    border-radius: 20px;
+    background: rgb(185, 194, 247);
+}
+
+.card-5 {
+    padding-left: 10px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+
+.card-5 span {
+    padding-left: 13px;
+}
+
+.card-5 h2 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-design {
+    margin-right: 25px;
+    width: 50%;
+    /* width: calc(50% - 18px);
+    display: inline-block; */
+}
+
+.form-row .form-design:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 700px) {
+    .form-row {
+        display: block;
+
+    }
+
+    .form-row .form-design {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}
+
+.form-design label {
+    display: block;
+    font-size: 15px;
+}
+
+.form-design input, .form-design textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 10px 0;
+    outline: none;
+    font-family: inherit;
+}
+
+
+.btn {
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    background: rgb(250, 112, 112);
+    border-radius: 5px;
+}
+
+.btn:hover {
+    opacity: 0.7;
+
+}
+
+a:hover {
+    color: rgb(101, 177, 152);
+    font-size: 1.5rem;
+    transition: all 0.2s;
+}
+
+a:visited {
+    color: rgb(112, 1, 122);
+}
+
+a:active {
+    color: azure;
+}
+
+.table td, th{
+    margin: 0;
+    padding: 0;
+    text-align: start;
+}
+
+.link-course {
+    padding: 0;
+    list-style: none;
+}
+
+.link-course li {
+    margin: 10px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    font-weight: 700;
+}
+.link-course li a {
+    text-decoration: none;
+    color: rgb(77, 16, 16);
+}
+
+@media (max-width: 700px) {
+
+    img {
+        width: 190px;
+        height: 190px;
+    }
+
+    .card-1 {
+        display: block;
+        text-align: center;
+    }
+
+    .info-start {
+        display: block;
+        text-align: center;
+    }
+}
